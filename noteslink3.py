@@ -63,8 +63,8 @@ def main():
     m = re.match('Notes://', uri)
     if m:
         title = 'Notes Link'
-        # uri = '[{0}]({1})'.format(title, REDIRECT + uri)  # Teams 用
-        uri = '[[{1}|{0}]]'.format(title, uri)  # DokuWiki 用
+        uri = '[{0}]({1})'.format(title, REDIRECT + uri)  # Teams 用
+        # uri = '[[{1}|{0}]]'.format(title, uri)  # DokuWiki 用
 
     # 変換後の URI をクリップボードにセットする
     if uri:
