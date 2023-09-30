@@ -21,12 +21,10 @@ import re
 import pyperclip as clip
 
 TYPE = 'SPO'  # SPO or RFG
-
 if TYPE == 'SPO':
     REDIRECT = 'http://rgrsc01.nws.ricoh.co.jp/common/NUReSPO.nsf/'
 else:
     REDIRECT = 'https://rfgricoh.sharepoint.com/sites/rfgportal/SitePages/redirect.aspx?'
-
 
 def main():
     # クリップボード値を取得
