@@ -1,0 +1,45 @@
+# .gitignore
+
+# バイナリファイル
+*.exe
+
+# 特定のバイナリファイル
+noteslink3.exe
+
+# Python関連
+*.pyc
+*.pyo
+*.egg
+*.egg-info
+dist/
+build/
+__pycache__/
+*.venv
+*.virtualenv
+*.virtualenvs
+*.env
+*.log
+*.pot
+*.py[co]
+*.db.sqlite3
+*.db.sqlite3-journal
+*.cache
+*.pytest_cache/
+
+# 一時ファイルやバックアップファイル
+*~
+*.bak
+*.swp
+
+# OS 生成ファイル
+.DS_Store
+Thumbs.db
+
+# IDE/エディタ生成ファイル
+*.idea/
+*.vscode/
+*.project
+
+# その他の一般的な無視項目
+node_modules/
+logs/
